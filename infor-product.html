@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="shortcut icon" href="assets/img/logo-2.png" type="image/x-icon">
+    <title>Dương</title>
+</head>
+
+<body>
+    <div id="Header">
+        <ul id="nav">
+            <a href="#Footer">
+                <div style="margin: 0 20px;color: #fff;display: inline-block;" class="ti-align-justify"></div>
+            </a>
+            <li><a href="index.html"> TRANG CHỦ</a></li>
+            <li>
+                <a href=""> SẢN PHẨM</a>
+                <ul class="subnav">
+                    <li><a href="">GIÀY RA</a></li>
+                    <li><a href="product.html">GIÀY NAM</a></li>
+                    <li><a href="">GIÀY NỮ</a></li>
+                    <li><a href="">PHỤ KIỆN</a></li>
+                </ul>
+            </li>
+
+            <li><a href="news.html">TIN TỨC</a></li>
+            <li><a href="map.html">LIÊN HỆ</a></li>
+        </ul>
+        <form class="sub-search">
+            <input class="input" type="text" placeholder="   TÌM KIẾM ....." required>
+            <input class="button" type="submit" value="TÌM KIẾM">
+        </form>
+
+    </div>
+    <div class="nad"></div>
+
+    <div id="infor-product">
+        <div class="main-infor">
+            <div class="infor-left">
+                <img src="assets/img/5b3accaf58aa1b3a2dbd07f4dff4e7b3_tn.jfif" alt="">
+            </div>
+            <div class="infor-right">
+                <div class="text-product">
+                    <h1>Giày Thể Thao Nam Sneaker Cao Cấp Da PU Bền Đẹp LEVI STORE Trending 2022</h1>
+
+                    <div class="sub-text">
+                        <h6>Giá: <span style="color: red;">250.000đ</span></h6>
+
+
+                        <div class="button-product">
+                            <p>kích cỡ</p>
+                            <input type="checkbox" name="1" id="">38
+                            <input type="checkbox" name="1" id="">39
+                            <input type="checkbox" name="1" id="">40
+                            <input type="checkbox" name="1" id="">41
+                            <input type="checkbox" name="1" id="">42
+
+                        </div>
+
+                        <div class="count">
+                            <p>số lượng</p>
+                            <button style="margin-left: 20px;" onclick="tru()">-</button>
+                            <input id="text" type="text" value="0" min="0">
+                            <button onclick="cong()">+</button>
+                        </div>
+
+                        <div class="cart">
+
+                            <button class="carrt-btn">
+                                <p class="ti-shopping-cart"></p> THÊM VÀO GIỎ HÀNG
+                            </button>
+                            <button class="mua">MUA</button>
+                        </div>
+
+                        <script>
+                            var b = 0;
+                            function cong() {
+                                b++;
+                                document.getElementById('text').value = b;
+                            }
+                            function tru() {
+                                b--;
+                                document.getElementById('text').value = b;
+                            }
+
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sản phẩm liên quan -->
+        <h1 style="text-transform: uppercase;margin: 0 10px;">sản phẩm liên quan</h1>
+        <div class="related-products">
+
+            <div class="sub-related">
+                <img src="assets/img/babe2f7a7a819929ed791d2c3a4d8a66_tn.jfif" alt="">
+                <div class="box-text">
+                    <p> Giày Thể Thao Snaker</p>
+                    <h4>350.000đ</h4>
+                    <h6>hà nội</h6>
+                </div>
+            </div>
+
+            <div class="sub-related">
+                <img src="assets/img/561ca6d545570e2a39aee6a11767173f_tn.jfif" alt="">
+                <div class="box-text">
+                    <p> Giày Thể Thao Snaker</p>
+                    <h4>350.000đ</h4>
+                    <h6>hà nội</h6>
+                </div>
+            </div>
+
+            <div class="sub-related">
+                <img src="assets/img/e605ff2b2f079e4c379210f7db4c105e_tn.jfif" alt="">
+                <div class="box-text">
+                    <p> Giày Thể Thao Snaker</p>
+                    <h4>350.000đ</h4>
+                    <h6>hà nội</h6>
+                </div>
+            </div>
+
+            <div class="sub-related">
+                <img src="assets/img/5b3accaf58aa1b3a2dbd07f4dff4e7b3_tn.jfif" alt="">
+                <div class="box-text">
+                    <p> Giày Thể Thao Snaker</p>
+                    <h4>350.000đ</h4>
+                    <h6>hà nội</h6>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="Footer">
+        <div class="main-footer">
+            <div class="submain">
+                <h2 style="display: inline-block;width: 400px;">NGUYỄN ÁNH DƯƠNG</h2><br><br>
+                <p>Sinh viên kì 2 cao đẳng fpt polytechnic sở thích chơi game và tìm hiểu những thứ mới mẻ trên internet
+                </p><br>
+                <a href="https://www.facebook.com/duong.te.50"
+                    style="text-decoration: none;display: inline-block;font-size: 50px;">
+                    <p class="ti-facebook" style="color: #fff;"></p>
+                </a>
+                <a href="https://www.youtube.com/channel/UCSjFheYZ4pK8jN2l6ww5N6A"
+                    style="text-decoration: none;display: inline-block;font-size: 50px;">
+                    <p class="ti-youtube" style="color: #fff;"></p>
+                </a>
+                <a href="https://github.com/Duong8888"
+                    style="text-decoration: none;display: inline-block;font-size: 50px;">
+                    <p class="ti-github" style="color: #fff;"></p>
+                </a>
+
+            </div>
+            <div class="submain">
+                <h2>LIÊN KẾT</h2><br>
+                <p>anhduongpro16032003@gmail.com</p><br>
+                <p>duongnaph23539@fpt.edu.vn</p>
+            </div>
+            <div class="submain">
+                <h2>THÔNG TIN</h2><br>
+                <p>ĐIỀU KHOẢN SỬ DỤNG</p><br>
+                <P>THÔNG TIN CHÚNG TÔI</P>
+            </div>
+            <div class="submain">
+                <h2>GIÚP ĐỠ</h2><br>
+                <p>HỌC TẬP</p><br>
+                <p>HỌC TẬP</p><br>
+                <p>HỌC TẬP</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
